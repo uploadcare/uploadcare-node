@@ -1,13 +1,12 @@
-{ 'name'        : 'uploadcare',
-  'version'     : '0.1.0',
-  'description' : 'Library for uploadcare.com.',
-  'keywords'    : ['upload', 'uploadcare', 'api', 'wrapper'],
-  'homepage'    : 'https://github.com/rexmorgan/uploadcare-node',
-  'author'      : 'Rex Morgan <rex.morgan@gmail.com> (http://rexflex.net)',
-  'main'        : './lib/main.js',
-  'repository'  : {
-    'type' : 'git',
-    'url'  : 'https://github.com/rexmorgan/uploadcare-node.git'
+{ "name": "uploadcare",
+  "version": "0.1.0",
+  "description": "Library for uploadcare.com.",
+  "keywords": ["upload", "uploadcare", "api", "wrapper"],
+  "homepage": "https://github.com/rexmorgan/uploadcare-node",
+  "author": "Rex Morgan <rex.morgan@gmail.com> (http://rexflex.net)",
+  "main": "./lib/main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rexmorgan/uploadcare-node.git"
   }
 }
-
