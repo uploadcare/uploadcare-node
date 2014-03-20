@@ -1,12 +1,10 @@
 uploadcare-node
 ===============
 
-Node module for uploadcare.com that allows API interaction as well as file upload.
+Node module for uploadcare.com that allows API interaction as well as local file upload.
 
 Usage
 -----------
-
-### Rotate
 
     var uploadcare = require('../lib/main')('public_key', 'private_key'),
         fs = require('fs');
