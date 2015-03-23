@@ -5,7 +5,8 @@
   "homepage": "https://github.com/rexmorgan/uploadcare-node",
   "author": "Rex Morgan <rex.morgan@gmail.com> (http://rexflex.net)",
   "contributors": [
-    "Olivier Leduc <olivier@leduc.cc> (http://pro.leduc.cc/)"
+    "Olivier Leduc <olivier@leduc.cc> (http://pro.leduc.cc/)",
+    "Olivier Evalet <evaleto@gmail.com> "
   ],
   "main": "./lib/main.js",
   "repository": {
