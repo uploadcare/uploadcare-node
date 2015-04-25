@@ -23,7 +23,7 @@ Usage
     });
     
     //
-    //Upload from file
+    //Upload from URL
     uploadcare.file.fromUrl('http://host/image/path', function(err,res){
         //Res should contain returned file ID
         console.log(err,res);
