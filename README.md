@@ -11,7 +11,7 @@ Usage
 
     //API interaction
     uploadcare.files.info('file_id', handler);
-    uploadcare.files.keep('file_id', handler);
+    uploadcare.files.store('file_id', handler);
     uploadcare.files.remove('file_id', handler);
 
     //Upload
