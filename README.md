@@ -14,6 +14,12 @@ Usage
     uploadcare.files.info('file_id', handler);
     uploadcare.files.store('file_id', handler);
     uploadcare.files.remove('file_id', handler);
+    uploadcare.groups.info('group_id', handler);
+
+    //
+    //Paginated list of files/groups info
+    uploadcare.files.list({page: 1, limit: 100}, handler)
+    uploadcare.groups.list({page: 1, limit: 100}, handler)
 
     //
     //Upload from file
