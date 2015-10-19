@@ -1,0 +1,12 @@
+CLI for the uploadcare.com REST API.
+
+Usage: uc [command] [options...] [args...]
+
+Command:
+  info, i        Get info for the provided file or group UUID
+
+Options:
+  -u, --pub      Public key to use (REQUIRED)
+  -r, --priv     Private key to use (REQUIRED)
+  -p, --pretty   Pretty print the output
+  -v, --version  Print version number and exit.
