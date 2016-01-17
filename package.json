@@ -12,7 +12,8 @@
   "author": "Rex Morgan <rex.morgan@gmail.com> (http://rexflex.net)",
   "contributors": [
     "Olivier Leduc <olivier@leduc.cc> (http://pro.leduc.cc/)",
-    "Olivier Evalet <evaleto@gmail.com> "
+    "Olivier Evalet <evaleto@gmail.com>",
+    "Fabien Franzen <info@atelierfabien.be>"
   ],
   "main": "./lib/main.js",
   "bin": {
@@ -27,6 +28,7 @@
     "node": ">= v0.8.0"
   },
   "dependencies": {
+    "async": "^1.5.2",
     "form-data": "latest",
     "minimist": "^1.2.0"
   }
