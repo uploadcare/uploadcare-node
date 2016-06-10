@@ -1,10 +1,12 @@
-var uploadcare = require('uploadcare')('public_key', 'private_key'),
+var uploadcare = require('../lib/main.js')('demopublickey', 'demoprivatekey'),
     fs = require('fs');
 
 function handler(method) {
   return function(error, response) {
     if(error) {
-      console.log('Error in ' + method + ': ' + JSON.stringify(response));
+      console.log('Error in ' + method);
+      console.log('Error: ' + error);
+      console.log('Response: ' + JSON.stringify(response));
     } else {
       console.log('Success: ' + method);
     }
