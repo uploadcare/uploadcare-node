@@ -9,7 +9,11 @@ Usage
     var uploadcare = require('../lib/main')('public_key', 'private_key'),
         fs = require('fs');
 
-    //
+    
+    // handler is a callback function
+    // in the form function(err, data) { // code to handle response }
+    
+    
     //API interaction
     uploadcare.files.info('file_id', handler);
     uploadcare.files.store('file_id', handler);
