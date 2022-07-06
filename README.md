@@ -1,6 +1,6 @@
-⚠️
+**⚠️ This package is DEPRECATED ⚠️**
 
-**This package is DEPRECATED in favour of [`@uploadcare/rest-client`](https://github.com/uploadcare/uploadcare-js-api-clients)**
+Please use [`@uploadcare/upload-client` or `@uploadcare/rest-client`](https://github.com/uploadcare/uploadcare-js-api-clients/#readme) instead.
 
 
 uploadcare-node
